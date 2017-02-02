@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Warface Blog</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<div id="page-wrapper">
+    <header id="header">
+        <div class="container">
+            <div id="primary-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+            <div id="secondary-menu">
+                <ul>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Gide</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                </ul>
+                <div id="logo">
+                    <a href="#"> <img src="img/6.png" alt="logo"></a>
+                </div>
+                <ul>
+                    <li><a href="#">Cheat</a></li>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Other</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="row">
+        <div class="slider">
+            <div class="info">
+                <h1>Text example!</h1>
+                <p id="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis facilis iure soluta. Adipisci, consequatur culpa dicta ea est eum expedita inventore laborum praesentium quam qui, quia, quidem repellat vel vitae.</p>
+            </div>
+
+        </div>
+
+        <div class="img-container">
+            
+            <div class="posts">
+                <div class="post">
+                    <img src="img/16.jpg">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, corporis culpa cumque ducimus ea, earum error eum minus nemo nihil officiis quisquam sunt totam. Ex modi quam ullam. Eum, optio!  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, corporis culpa cumque ducimus ea, earum error eum minus nemo nihil officiis quisquam sunt totam. Ex modi quam ullam. Eum, optio!
+                </p>
+                    </p>
+                </div>
+                <div class="post">
+                    <img src="img/14.jpg">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, corporis culpa cumque ducimus ea, earum error eum minus nemo nihil officiis quisquam sunt totam. Ex modi quam ullam. Eum, optio!  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, deserunt in inventore iusto natus nihil officia quidem saepe sit tenetur? Earum excepturi laborum laudantium, magni nesciunt quaerat quis ratione voluptate.
+                </p>
+                    </p>
+                </div>
+
+                <div class="post">
+                    <img src="img/15.jpg">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, corporis culpa cumque ducimus ea, earum error eum minus nemo nihil officiis quisquam sunt totam. Ex modi quam ullam. Eum, optio!  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, corporis culpa cumque ducimus ea, earum error eum minus nemo nihil officiis quisquam sunt totam. Ex modi quam ullam. Eum, optio!
+                </p>
+                    </p>
+                </div>
+                <div class="post">
+                    <img src="img/13.jpg">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, corporis culpa cumque ducimus ea, earum error eum minus nemo nihil officiis quisquam sunt totam. Ex modi quam ullam. Eum, optio!  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, corporis culpa cumque ducimus ea, earum error eum minus nemo nihil officiis quisquam sunt totam. Ex modi quam ullam. Eum, optio!
+                </p>
+                    </p>
+                </div>
+
+                <div class="post">
+                    <img src="img/12.jpg">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, corporis culpa cumque ducimus ea, earum error eum minus nemo nihil officiis quisquam sunt totam. Ex modi quam ullam. Eum, optio!  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, corporis culpa cumque ducimus ea, earum error eum minus nemo nihil officiis quisquam sunt totam. Ex modi quam ullam. Eum, optio!
+                </p>
+                    </p>
+                </div>
+
+                <div class="post">
+                    <img src="img/11.jpg">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, corporis culpa cumque ducimus ea, earum error eum minus nemo nihil officiis quisquam sunt totam. Ex modi quam ullam. Eum, optio!  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, corporis culpa cumque ducimus ea, earum error eum minus nemo nihil officiis quisquam sunt totam. Ex modi quam ullam. Eum, optio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias beatae commodi deleniti dignissimos dolores est excepturi exercitationem illo ipsa ipsam necessitatibus nulla pariatur quod, repellat rerum similique totam unde veritatis.
+                </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="about"><h2>About as</h2></div>
+        </div>
+        <div class="sidebar_1">
+            <div class="about">
+                <h2>Contact us</h2>
+            </div>
+        </div>
+        <div class="sidebar_2">
+            <div class="about"><h2>Auth</h2></div>
+        </div>
+        <div class="sidebar_3">
+            <div class="about"><h2>Ads</h2></div>
+        </div>
+        <   div class="img-container2">
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
