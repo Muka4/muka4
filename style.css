@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+html,body{
+	padding:0;
+	margin:0;
+}
+
+`{
+	box-sizing: border-box;
+}
+a{
+	display:inline-block;
+}
+
+img{
+	max-width: 100%;
+}
+
+*{
+	font-family: 'Roboto Condensed',Arial,sans-serif;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+#page-wrapper{
+	height: 100vh;
+	padding-top: 300px;
+}
+
+html{
+
+}
+body{
+	height:2000px;
+	background: url(../img/4.jpg );
+	background-size:cover;
+}
+#page-wrapper{
+	background-image: url(../img/2.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+/*primary-menu*/
+#primary-menu{
+	background:#ff9700;
+	height:75px;
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+}
+#primary-menu::before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: -74px;
+	border: 37.8px solid transparent;
+	border-right-color: #ff9700;
+	border-bottom-color:  #ff9700;
+}
+#primary-menu::after{
+	content: "";
+	position: absolute;
+	top: 0px;
+	right: -74px;
+	border: 37.8px solid transparent;
+	border-left-color: #ff9700;
+	border-bottom-color:  #ff9700;
+}
+#primary-menu  > ul {
+	padding:0;
+	margin:0;
+	font-size:0;
+	overflow: hidden;
+	text-align: center;
+	
+}
+#primary-menu  > ul > li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 20px;
+	font-size: 16px;
+}
+#primary-menu  > ul > li:last-child{
+	margin-right:0;
+}
+#primary-menu  > ul > li a{
+	display:inline-block;
+	color:#aaa;
+	text-decoration:none;
+	height:75px;
+	line-height:75px;
+	padding: 0 15px;
+	position:relative;
+	color:#333;
+	z-index: 999;
+}
+#primary-menu  > ul > li a:hover{
+	color:#333;
+}
+
+#primary-menu  > ul > li a::before{
+	content: "";
+	position:absolute;
+	width:90%;
+	height:150px;
+	color: #333;
+	background-color:#fff;
+	opacity:0;
+	transform: rotate(20deg);
+	z-index: -1;
+}
+
+#primary-menu  > ul > li a:hover::before{
+	opacity:1;
+	margin:-20px;
+}
+/*secondary-menu*/
+#secondary-menu{
+	background:#061727;
+	height:100px;
+	width: 100%;
+	margin: 0 auto;
+	padding:0 50px;
+	text-align: center;
+}
+
+
+#secondary-menu > ul{
+	display: inline-block;
+	padding:0;
+	margin:0;
+	line-height: 100px;
+}
+
+#secondary-menu > ul > li{
+	display: inline-block;
+	margin-right:20px;
+	list-style:none;
+
+}
+
+#secondary-menu > ul > li > a{
+	text-decoration: none;
+	color: #fff;
+}
+
+#secondary-menu > ul > li > a:hover{
+	color:#ff9700;
+}
+
+#secondary-menu > ul > #logo{
+	width:400px;
+
+}
+
+.row{
+	overflow: hidden;
+	width: 89%;
+	margin: 0 auto;
+	background: #fff;
+	padding: 10px;
+}
+
+.slider{
+	background-image: url(../img/10.jpg);
+	width: 100%;
+	background-size: cover;
+	height: 289px;
+}
+
+.img-container{
+	float: left;
+	width: 61%;
+	height: 1500px;
+	border: 1px black solid;
+	margin-top: 15px;
+	padding: 10px;
+}
+.posts{
+	margin-bottom: 15px;
+
+}
+.posts img{
+	margin: 5px;
+	width: 100%;
+	height: 224px;
+	float: left;
+}
+
+.post{
+	margin: 5px;
+	float: left;
+	width: 48%;
+}
+
+p{
+	display: inline-block;
+	margin-top: 5px;
+}
+.info{
+	background: rgba(85, 86, 86, 0.76);
+	height:100%;
+	width:500px;
+	float:right;
+}
+#info{
+	color: #fff;
+	margin:0px;
+	text-align: center;
+	padding-top:20px;
+	font-size: 18px;
+}
+h1{
+	text-align:center;
+	padding-top: 80px;
+	margin:0px;
+}
+.sidebar{
+	margin-top: 15px;
+	margin-left: 35px;
+	padding: 10px;
+	float: left;
+	width: 30%;
+	border: 1px black solid;
+	height: 300px;
+	float: right;
+	background: url(../img/21.jpg);
+	background-size: cover;
+}
+
+.about {
+	background-color: silver;
+	color: white;
+	font-size: 12px;
+	width: 50%;
+	margin: -35px auto;
+	text-align: center;
+}
+
+.sidebar_1{
+	margin-top: 20px;
+	margin-left: 35px;
+	padding: 10px;
+	float: left;
+	width: 30%;
+	border: 1px black solid;
+	height: 350px;
+	float: right;
+	background: url(../img/16.jpg);
+	background-size: cover;
+
+}
+
+.sidebar_2{
+	margin-top: 15px;
+	margin-left: 35px;
+	padding: 10px;
+	float: left;
+	width: 30%;
+	border: 1px black solid;
+	height: 400px;
+	float: right;
+	background: url(../img/22.jpg);
+	background-size: cover;
+}
+
+.sidebar_3{
+	margin-top: 15px;
+	margin-left: 35px;
+	padding: 10px;
+	float: left;
+	width: 30%;
+	border: 1px black solid;
+	height: 400px;
+	float: right;
+	background: url(../img/19.jpg);
+	background-size: cover;
+}
+
+#cont{
+	margin-top:20px;
+}
+
+#logo{
+	width:300px;
+	text-align: center;
+}
